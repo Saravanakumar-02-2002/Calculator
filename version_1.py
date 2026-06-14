@@ -14,6 +14,9 @@ def calculate(a,b,operation):
     else:
         return "Not a valid operator"
     
-print(calculate(2,5,'*'))
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+operation = input("Enter the operation you want to perform (+,-,*,%,//,/): ")
+print(calculate(a,b,operation))
 
 
