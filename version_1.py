@@ -15,5 +15,6 @@ def calculate(a,b,operation):
         return "Not a valid operator"
     
 print(calculate(2,5,'*'))
+print(calculate(2,5,'+'))
 
 
